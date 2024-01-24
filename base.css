@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(222, 226, 226, 0.897);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(89, 226, 226);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+            
+}
+.footer {
+    background-color: rgb(234, 233, 238);
+    min-height: 50px;
+}
+.video-container {
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: -40px;
+            
+}
+.menu-button {
+    display: inline-block;
+    padding: 5px 50px;
+    margin: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+}
+
+.tabela {
+    
+    display: inline-block;
+    margin-right: 5px; /* Adicione margem à direita para separar as tabelas */
+}
